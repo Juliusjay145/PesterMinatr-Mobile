@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.pesterminatr"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:restoreAnyVersion="true" android:allowClearUserData="false">
+        <activity
+            android:name="com.example.pesterminatr.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="client"></activity>
+        <activity android:name="client_reg"></activity>
+        <activity android:name="Profile"></activity>
+        <activity android:name="ProfileEdit"></activity>
+        <activity android:name="service"></activity>
+        <activity android:name="residential"></activity>
+        <activity android:name="commercial"></activity>
+        <activity android:name="pestcontrol"></activity>
+        <activity android:name="service_pest"></activity>
+        <activity android:name="residentialList"></activity>
+        <activity android:name="ResidentialBook"></activity>
+        <activity android:name="CommercialBook"></activity>
+        <activity android:name="confirm"></activity>
+        <activity android:name="confirmresidential"></activity>
+        <activity android:name="BookingDetails"></activity>
+        <activity android:name="residentialupdatedetails"></activity>
+        <activity android:name="Profilepest"></activity>
+        <activity android:name="ProfilePestEdit"></activity>
+        <activity android:name="CommercialDetails"></activity>
+        <activity android:name="History"></activity>
+        <activity android:name="CommercialHistory"></activity>
+        <activity android:name="PestControlProfile"></activity>
+        <activity android:name="providerProfile"></activity>
+        <activity android:name="ClientCommercial"></activity>
+        <activity android:name="providerProfileCommercialClient"></activity>
+        <activity android:name="service_pestCommercialClient"></activity>
+        <activity android:name="AddFeedback"></activity>
+        <activity android:name="AddFeedbackCommercial"></activity>
+        <activity android:name="service_profile"></activity>
+        <activity android:name="commercial_service_profile"></activity>
+        <activity android:name="CommericalProfile"></activity>
+        <activity android:name="CommercialBookingDetails"></activity>
+        <activity android:name="AddSchedule"></activity>
+        <activity android:name="Scheduled"></activity>
+        <activity android:name="UpdateSchedule"></activity>
+        <activity android:name="ScheduledCommercial"></activity>
+        <activity android:name="UpdateScheduleCommer"></activity>
+        <activity android:name="UpdateBookingDetails"></activity>
+        <activity android:name="UpdateBookingDetailsCommercial"></activity>
+        <activity android:name="HistoryCommercial"></activity>
+        <activity android:name="CommentFeedback"></activity>
+        <activity android:name="MyService"></activity>
+        <activity android:name="commercialupdatedetails"></activity>
+        <activity android:name="CommentFeedbackResidential"></activity>
+    </application>
+
+</manifest>
